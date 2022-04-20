@@ -4,6 +4,40 @@
 }
 
 body {
-  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+
+#root nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3%;
+}
+
+#root nav .brand {
+  margin-right: 3%;
+}
+
+#root nav .menu {
+  margin-left: 3%;
+}
+
+#root .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .footer .sponsors {
+  margin-right: 30%;
+  margin-left: 3%;
 }
 /*# sourceMappingURL=style.css.map */

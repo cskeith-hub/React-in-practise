@@ -2,6 +2,39 @@
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+#root{
+
+    nav{
+        display: flex; 
+        justify-content: center;
+        margin-top: 3%;
+        
+        .brand{
+            margin-right: 3%;
+        }
+        .menu{
+            margin-left: 3%;
+        }
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        .sponsors {
+            margin-right: 30%;
+            margin-left: 3%;
+        }
+
+        .contactInfo{
+           
+        }
+
+    }
 }
