@@ -13,8 +13,10 @@ function DataFetching() {
        }, []);
        console.log(movies)
   return (
+      
     <div className="Movies">
         {movies.map(movie =>(
+
             <div className="movie" key={uuidv4()}>
                 <div className="movieTitle"><b>{movie.title}</b></div>
             <div className="moviePicture">

@@ -1,8 +1,7 @@
 import Header from "./Components/Header";
-import MovieList from "./Components/MovieList";
 import Footer from "./Components/Footer";
-import "./Styles/style.css"
 import DataFetching from "./Components/DataFetching";
+import MovieCard from "./Components/MovieCard";
 
 
 
@@ -15,7 +14,7 @@ function App() {
   return (
    <>
    <Header />
-   <MovieList />
+   <MovieCard />
    <DataFetching />
    <Footer />
    </>
