@@ -10,6 +10,7 @@ function Footer() {
         <p>Powerd by</p>
         <p>BEcode</p>
         <p>VDAB</p>
+        
 
       </div>
       <div className='conactInfo'>
