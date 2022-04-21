@@ -1,8 +1,7 @@
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import DataFetching from "./Components/DataFetching";
 import MovieCard from "./Components/MovieCard";
-
+import "./Styles/style.css"
 
 
 
@@ -15,7 +14,6 @@ function App() {
    <>
    <Header />
    <MovieCard />
-   <DataFetching />
    <Footer />
    </>
   );

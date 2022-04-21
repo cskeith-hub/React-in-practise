@@ -24,24 +24,16 @@ body {
             margin-left: 3%;
         }
     }
-
-    .movie {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-        .movieTitle{
-            margin-bottom: 0.4rem;
+    .cardBox{
+        display:flex;
+        justify-content: center;
+        margin-top: 1rem;
+        .card{
+            text-align: center;
+            background-color: papayawhip;
         }
-        .moviePicture {
-            img {
-                border: 1px solid black;
-                border-radius: 5px;
-            }
-        }
-
     }
+    
 
     .footer {
         display: flex;
