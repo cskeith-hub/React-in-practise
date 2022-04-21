@@ -1,6 +1,6 @@
 import {useState, useEffect } from "react";
 import apiKey from "../Config";
-import MovieCard from "./MovieCard";
+import { v4 as uuidv4 } from 'uuid';
 
 function DataFetching() {
     const [movies, setMovies] = useState([])
@@ -15,7 +15,7 @@ function DataFetching() {
   return (
     <div className="Movies">
         {movies.map(movie =>(
-            <div className="movie">
+            <div className="movie" key={uuidv4()}>
                 <div className="movieTitle"><b>{movie.title}</b></div>
             <div className="moviePicture">
                 <img src={"https://image.tmdb.org/t/p/w300/"+movie.poster_path} alt="Movie picture"></img>
