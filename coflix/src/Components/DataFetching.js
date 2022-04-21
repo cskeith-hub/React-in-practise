@@ -15,8 +15,12 @@ function DataFetching() {
   return (
     <div className="Movies">
         {movies.map(movie =>(
+            <>
+            <div className="moviePicture">
+                <img src={"https://image.tmdb.org/t/p/w500/"+movie.poster_path} alt="Movie picture"></img>
+            </div>
             <div className="movieTitle">{movie.title}</div>
-            
+            </>
         ))}
     </div>
     );
