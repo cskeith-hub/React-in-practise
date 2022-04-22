@@ -6,7 +6,7 @@ import "./Styles/style.css"
 
 
 
-function App() {
+function App(props) {
  
   
    

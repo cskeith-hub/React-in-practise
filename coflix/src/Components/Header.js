@@ -10,10 +10,11 @@ function Header() {
   }
   console.log(search)
   return (
+
     <nav>
     <div className='brand'>BRAND</div>
-    <input type="text" name="name" ref={searchBar}/>
-    <button onClick={handleSearch} value="popular">Search</button>
+    <input type="text" name="name" ref={searchBar} />
+    <button onClick={handleSearch} >Search</button>
     <div className='menu'>MENU</div>
     </nav>  
   )

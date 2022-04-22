@@ -7,11 +7,11 @@ import Button from 'react-bootstrap/Button';
 
 
 
-function MovieCard() {
-  
+function MovieCard(props) {
+  console.log(props.search)
     const [movies, setMovies] = useState([])
     useEffect(() => {
-        fetch('https://api.themoviedb.org/3/movie/popular?api_key='+ apiKey.movieKey)
+        fetch('https://api.themoviedb.org/3/movie/top_rated?api_key='+ apiKey.movieKey)
          .then((data) => data.json())
          .then(data => {
             setMovies(data.results)
